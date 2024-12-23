@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+header a {
+    background-color: aqua;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 15px;
+    font-size: 25px;
+    text-shadow: 3px 3px 3px purple;
+
+}
+nav {
+    color: whitesmoke;
+    border-bottom: solid white;
+    border-top: solid white;
+    font-size: 40px;
+    padding:20px ;
+    margin: 25px;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 3px 3px 3px purple;
+}
+h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px 3px purple;
+    font-size: 40px;
+}
+.qwe img {
+    width: 400px;
+    height: 300px;
+}
+.qwe {
+    display: block;
+    color: black;
+    font-size: 35px;
+    background-color: white;
+    padding: 30px;
+    float: left;
+    border: 3px solid purple;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0px 10px 10px 200px;
+    width: 400px;
+
+}
+h2 {
+    font-size: 40px;
+}
+.qwe a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: purple;
+    padding: 10px;
+    display: block;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.m {
+    width: 100%;
+}
+.prok {
+    display: flex;
+    flex-wrap: wrap;
+}
+footer img {
+    width: 80px;
+    height: 80px;
+    margin-right: 80px;
+}
+footer {
+    background-color: rgb(61, 194, 238);
+    display: flex;
+    padding: 40px 0px 45px 45px;
+}
+footer p {
+    font-size: 24px;
+    
+}
